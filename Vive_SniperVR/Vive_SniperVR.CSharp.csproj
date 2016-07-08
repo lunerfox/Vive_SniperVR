@@ -75,6 +75,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Fx Explosion Pack\Script\DestroyEffect.cs" />
+    <Compile Include="Assets\Fx Explosion Pack\Script\csLightControl.cs" />
     <Compile Include="Assets\Scripts\AirPlaneDestroyer.cs" />
     <Compile Include="Assets\Scripts\RandomAgent.cs" />
     <Compile Include="Assets\Scripts\Sniper.cs" />
