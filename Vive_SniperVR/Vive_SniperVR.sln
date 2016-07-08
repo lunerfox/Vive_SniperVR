@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vive_SniperVR.CSharp.Plugins", "Vive_SniperVR.CSharp.Plugins.csproj", "{9E441320-BB33-7708-4603-5BC73C94A268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vive_SniperVR.CSharp", "Vive_SniperVR.CSharp.csproj", "{EBAD52F2-40E2-7155-4590-F2BB7A7A3A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vive_SniperVR.CSharp.Editor", "Vive_SniperVR.CSharp.Editor.csproj", "{25592A9B-0508-F4E0-42C0-CDA640B2FB5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E441320-BB33-7708-4603-5BC73C94A268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E441320-BB33-7708-4603-5BC73C94A268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E441320-BB33-7708-4603-5BC73C94A268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E441320-BB33-7708-4603-5BC73C94A268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAD52F2-40E2-7155-4590-F2BB7A7A3A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAD52F2-40E2-7155-4590-F2BB7A7A3A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAD52F2-40E2-7155-4590-F2BB7A7A3A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAD52F2-40E2-7155-4590-F2BB7A7A3A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25592A9B-0508-F4E0-42C0-CDA640B2FB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25592A9B-0508-F4E0-42C0-CDA640B2FB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25592A9B-0508-F4E0-42C0-CDA640B2FB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25592A9B-0508-F4E0-42C0-CDA640B2FB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
