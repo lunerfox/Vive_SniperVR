@@ -22,9 +22,8 @@ public class Sniper : MonoBehaviour
             GameObject bullet = GameObject.Instantiate(BulletPrefab, BulletSpawnPoint.position, BulletSpawnPoint.rotation) as GameObject;
             bullet.GetComponent<Rigidbody>().velocity = BulletSpawnPoint.transform.forward * BulletSpeed;
             GetComponent<AudioSource>().Play();
-
-            //joint = go.AddComponent<FixedJoint>();
-            //joint.connectedBody = attachPoint;
+            //Haptic Feedback
+            device.TriggerHapticPulse(3000);
         }
 
         if (device.GetPressDown(SteamVR_Controller.ButtonMask.Touchpad)) {
